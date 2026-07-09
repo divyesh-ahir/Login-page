@@ -20,7 +20,7 @@ function Modal({ children }) {
             document.removeEventListener("keydown", handleEsc);
         };
 
-    }, []);
+    }, [closeModal]);
 
     const handleOverlayClick = (e) => {
         if (e.target.classList.contains("modal-overlay")) {
