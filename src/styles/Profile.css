@@ -1,0 +1,154 @@
+.profile-page{
+    min-height:calc(100vh - 70px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fff;
+    padding:30px;
+}
+
+.profile-card{
+
+width:380px;
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+text-align:center;
+
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #b30000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto 20px;
+    box-shadow: 0 6px 15px rgba(179, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+.profile-card h2{
+
+margin-top:20px;
+font-size:28px;
+
+}
+
+.profile-card p{
+
+margin:15px 0;
+color:#666;
+
+}
+
+.btn-group{
+
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:25px;
+
+}
+
+.login-btn,
+.signup-btn{
+
+padding:12px 28px;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+
+}
+
+.login-btn{
+
+background:#b30000;
+color:white;
+
+}
+
+.signup-btn{
+
+background:white;
+color:#b30000;
+border:2px solid #b30000;
+
+}
+
+.login-btn:hover{
+
+background:#8a0000;
+
+}
+
+.signup-btn:hover{
+
+background:#b30000;
+color:white;
+
+}
+.logout-btn{
+
+width:100%;
+
+padding:12px;
+
+margin-top:20px;
+
+background:#b30000;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.logout-btn:hover{
+
+background:#870000;
+
+}
+
+@media(max-width:768px){
+
+.profile-card{
+
+width:95%;
+padding:30px;
+
+}
+
+.btn-group{
+
+flex-direction:column;
+
+}
+
+.login-btn,
+.signup-btn{
+
+width:100%;
+
+}
+
+}
